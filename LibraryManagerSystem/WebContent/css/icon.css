@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+
+body{
+	background-origin:content;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+        font-style: italic;
+        font-weight: bold;
+        font-family: "微软雅黑";
+}
+
+.pageheaddiv{
+	background-color: black;
+	opacity: 0.8;
+	padding-bottom: 10px;
+	padding-top: 10px;
+        font-style: italic;
+        font-weight: bold;
+        border-radius:20px;
+
+}
+
+.logindiv{
+	background-color: black;
+	opacity: 0.8;
+	width: auto;
+	margin: 10% 25% 15%;
+        font-style: italic;
+        font-weight: bold;
+  
+        
+}
+
+.library_icon{
+	width: 200px;
+	height: 50px;
+        font-style: italic;
+        font-weight: bold;
+}
+
+.common_icon{
+	width: 42px;
+	height: 42px;
+        font-style: italic;
+        font-weight: bold;
+}
+
+.searchdiv1{
+	background-color: black;
+	opacity: 0.8;
+	margin: 6% 25% 10%;
+	padding: 30px 20px;
+        font-style: italic;
+        font-weight: bold;
+        border-radius:20px;
+}
+
+.searchdiv{
+	background-color: black;
+	opacity: 0.8;
+	margin-top:10%;
+	padding: 10px 20px;
+        font-style: italic;
+        font-weight: bold;
+        border-radius:20px;
+}
+
+a:link{color: white; text-decoration: none;} //未访问：白色、无下划线 
+a:visited{color: white;text-decoration: none;} //已访问：白色、无下划线 
+a:hover{color: white; text-decoration: underline;} //鼠标移近：白色、下划线 
+a:active{color: white; text-decoration: none;} //激活：红色 
+
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.medium {
+   
+	font-size: 12px;
+	padding: .4em 1.5em .42em;
+}
+
+.size {
+	width:100%;
+	font-size: 12px;
+	padding: .4em 1.5em .42em;
+}
+
+
+/* white */
+.white {
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+}
+.white:hover {
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.white:active {
+	color: #999;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+	background: -moz-linear-gradient(top,  #ededed,  #fff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+} 
+
+#parent{
+    background: url('https://raw.githubusercontent.com/ourjs/static/gh-pages/2015/arrow.png') right center no-repeat; 
+   /* the width and the height of your image */
+    width: 120px;
+    height: 20px;
+    overflow: hidden;
+    border: solid 1px #ccc;
+}
+
+#parent select{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background:transparent;
+    border:none;
+    padding-left:10px;
+    width: 120px;
+    height:100%;    
+}
